@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BharatGPT</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #333;
+    }
+
+    .logo {
+      display: block;
+      margin: 0 auto;
+      width: 500px;
+      height: 500px;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    button {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: 500;
+      cursor: pointer;
+      border: none;
+      border-radius: 4px;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .documents-summarizer-button {
+      background-color: #008000;
+      color: #fff;
+    }
+
+    .image-summarizer-button {
+      background-color: #0000ff;
+      color: #fff;
+    }
+
+    button:hover {
+      background-color: #333;
+      color: #fff;
+    }
+
+    button:active {
+      transform: translateY(2px);
+      box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    }
+
+    button:focus {
+      outline: 2px solid #000;
+    }
+  </style>
+</head>
+<body>
+  <img src="logo.png" alt="Logo" class="logo">
+
+  <div class="buttons">
+    <button class="documents-summarizer-button" onclick="window.open('http://172.30.22.82:8000', '_blank');">
+      Documents Summarizer
+    </button>
+    <button class="image-summarizer-button" onclick="window.open('http://172.30.22.82:8501', '_blank');">
+      Image Summarizer
+    </button>
+  </div>
+</body>
+</html>
