@@ -60,3 +60,9 @@ Bharat GPT is an Offline Large Language Model (LLM) designed to provide vital in
 - AI for Advanced Legal Research
 - Streamlining Law Research with AI Expertise
 - Your Legal Research Assistant Powered by AI
+
+An absolute link to Project PPT [Link🔗]([https://google.com](https://drive.google.com/file/d/1ZaiqpLM50VRfepChV6yWJDKHyVca8WwU/view?usp=drivesdk)https://drive.google.com/file/d/1ZaiqpLM50VRfepChV6yWJDKHyVca8WwU/view?usp=drivesdk)  
+
+
+
+
