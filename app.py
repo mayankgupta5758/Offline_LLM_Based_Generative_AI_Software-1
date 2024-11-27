@@ -44,4 +44,4 @@ with col2:
             image_bytes = image_byte_array.getvalue()         
             answer = get_answer(image_bytes, question)
             st.success("Answer: " + answer)
-            
+            print("I am BCDK")
